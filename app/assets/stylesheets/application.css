@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+.control-label {
+	padding-left: 200px;
+}
+
+form.form-horizontal {
+	text-align: center;
+}

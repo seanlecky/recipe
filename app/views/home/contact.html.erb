@@ -1,15 +1,41 @@
-<h1>contact</h1>
+</br>
+<h1 style="padding-left: 50px;">Contact</h1>
+</br>
 <div class="row">
-	<div class="span3" name="left_sidebar_contact"> <!-- content --> </div>
-		<div class="span9" name="main_contact">
-			<!-- 
-				MAIN RECIPE CONTENT
+	<div class="span9" name="main_contact">
+		<!-- 
+			MAIN RECIPE CONTENT
 
-				TO DO: recipe objects
-			-->
-			<h4>Contacting Ripe</h4>
-			<p> Ripe is a gret place to find awesome salad recipes. Contact us with 
-				thoughts, suggestions and feedback using the form below.</p>
-		</div>
-	<div class="span3" name="right_sidebar_contact"> <!-- content --> </div>
+			TO DO: recipe objects
+			TO DO: Contact logic
+		-->
+		<form class="form-horizontal" role="form" id="contact-form">
+  			<div class="form-group">
+    			<label for="contact-name" class="col-sm-2 control-label">Name</label>
+    			<div class="col-sm-10">
+      				<input class="field span4" type="text" class="form-control" id="contact-name" placeholder="Enter name">
+    			</div>
+  			</div>
+  			</br>
+  			<div class="form-group">
+    			<label for="contact-email" class="col-sm-2 control-label">Email</label>
+    			<div class="col-sm-10">
+      				<input class="field span4" type="email" class="form-control" id="contact-email" placeholder="Enter email address">
+    			</div>
+  			</div>
+  			</br>
+  			<div class="form-group">
+    			<label name="label-message" for="contact-message" class="col-sm-2 control-label">Message</label>
+    			<div class="col-sm-10">
+      				<textarea class="field span4" class="form-control" rows="5" id="contact-message" placeholder="Type message here..."></textarea>
+    			</div>
+  			</div>
+  		</form>
+	</div>
+	<div class="span3" name="right_sidebar_contact">
+		<h4>Contacting Ripe</h4>
+			<p> Ripe is a great place to find awesome salad and smoothie recipes. Contact us with 
+				thoughts, suggestions and feedback using our form.</p>
+			<p> </p>
+	</div>
 </div>
